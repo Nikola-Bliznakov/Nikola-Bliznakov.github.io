@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Bluu Next';
+  src: url(../assets/bluunext.woff2), url(../assets/bluunext.woff);
+}
+
+*,
+*:before,
+*:after,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfffaf;
+  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  height: 100vh;
+  transition: 0.5s;
+}
+
+h1 {
+  font-family: 'Bluu Next';
+  font-size: 6vmin;
+  line-height: 1.25;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: 'Bluu Next';
+  font-size: clamp(1.5rem, 3vmin, 3rem);
+}
+
+.quote {
+  width: calc(100vw - 15%);
+  max-width: 1920px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
