@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: black;
+}
+
 .navigation {
   height: 100vh;
   display: flex;
