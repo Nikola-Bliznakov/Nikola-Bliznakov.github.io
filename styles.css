@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Jet Brains Mono';
+  src: url(assets/JetBrainsMono-Medium.woff2);
+}
+
+*,
+*:before,
+*:after,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Jet Brains Mono';
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.navigation {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
