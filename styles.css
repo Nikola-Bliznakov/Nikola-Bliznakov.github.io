@@ -19,10 +19,15 @@ body {
 a {
   font-size: 1.3rem;
   text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a:visited {
-  color: black;
+  color: blue;
 }
 
 .navigation {
