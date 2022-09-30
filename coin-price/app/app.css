@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-a:active {
-  color: var(--text-color);
-}
-
 .selected {
   color: var(--text-color);
 }
